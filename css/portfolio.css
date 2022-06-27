@@ -10,7 +10,7 @@ h1 {
     font-family: "Trebuchet MS", Optima;/* Sets the font family of all h1 headings */
     text-align: center; /* Centering all h1 elements */
     margin-top: 3%; /* Adds a small margin above h1 elements */
-    color: #6d454c; 
+    color: #7C3E66; 
 }
 
 /* Heading 1 element hover effect */
@@ -54,7 +54,7 @@ p:hover {
 
 /* Anchor elements */
 a {
-    color: #837a75; /* This ensures all links are blue */
+    color: #F1EEE9; /* This ensures all links are blue */
 }
 
 /* Quotation elements */
@@ -218,7 +218,7 @@ footer {
     padding: 10px;
     padding-top: 1.9%;
     height: 400px;
-    background-color: #b2bdb4;
+    background-color: #F1EEE9;
 }
 
 /* This class is applied to the columns in the final row, overriding the height and padding to provide more room for the contact form  while keeping the rest of the formatting from Column_1 or Column_2 */
@@ -251,7 +251,7 @@ input[type=text] {
 
 /* Hover effects for input boxes */
 input[type=text]:hover {
-    box-shadow: 0 0 5px #00004d inset; /* This creates a blue shadow in the text box when hovered over by the user */
+    box-shadow: 0 0 5px #EDE6DB  inset; /* This creates a blue shadow in the text box when hovered over by the user */
 }
 
 /* Submit button */
@@ -272,7 +272,7 @@ input[type=submit] {
 /* Hover effect for submit button */
 input[type=submit]:hover {
     background-color: white; /* Turns the background of the submit button white when the user hovers over it */
-    color: black; /* Turns the font black when hovered over */
+    color: #EDE6DB; /* Turns the font black when hovered over */
     transform: scale(1.5); /* Makes the button increase 1.5 times in size */
     transition: transform 1.5s; /* Makes the transform effect last 1.5 seconds */
 }
